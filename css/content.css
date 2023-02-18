@@ -1,0 +1,58 @@
+header {
+
+    width: 100%;
+    height: 90px;
+    background-color: rgb(49, 40, 97);
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.sega_logo {
+    width: 190px;
+    height: 60px;
+}
+
+.sega_gif {
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+}
+
+.persona5_body {
+    background-color: rgb(33, 33, 83);
+    background-image: url('../resources/background_sonic_mania.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.sonic_body {
+    background-color: rgb(33, 33, 83);
+    background-image: url('../resources/background_sonic_mania.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.yakuza_body {
+    background-color: rgb(33, 33, 83);
+    background-image: url('../resources/background_sonic_mania.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.page_footer {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(42, 43, 100);
+    margin-left: auto;
+    margin-right: auto;
+}

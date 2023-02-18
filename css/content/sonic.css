@@ -1,0 +1,152 @@
+header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(13, 128, 143);
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-left: 30px;
+    left: 0;
+}
+
+.sega_logo {
+    width: 190px;
+    height: 60px;
+}
+
+.back_button {
+    width: 40px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+.sega_gif {
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+}
+
+body {
+    background-color: rgb(45, 197, 207);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-size: 100%;
+}
+
+.page_footer {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    color: aliceblue;
+    background-color: rgb(13, 128, 143);
+}
+
+.page_footer>p {
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    left: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateX(-50%);
+}
+
+.section_top {
+    width: 90%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+section>.summary {
+    margin-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 250px;
+    height: auto;
+    font-size: large;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+section>.summary:hover {
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_1 {
+    from {}
+
+    100% {
+        background-color: rgb(4, 224, 177);
+        ;
+    }
+}
+
+.section_top>.summary,
+.section_top>.gameplay {
+    display: inline-block;
+}
+
+.gameplay {
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: 3%;
+    max-width: 500px;
+}
+
+.divide {
+    border: 1px solid rgb(12, 41, 170);
+    width: 100%;
+
+}
+
+.section_bottom {
+    height: 400px;
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.section_bottom>table,
+.section_bottom>ol {
+    display: inline-block;
+}
+
+table {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 45px
+}
+
+.table_header {
+    border: 1px solid rgb(12, 41, 170);
+    background-color: rgb(4, 224, 177);
+    color: black;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td:hover {
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+ol {
+    margin-right: 10%;
+}
+
+ol>li {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: square;
+}

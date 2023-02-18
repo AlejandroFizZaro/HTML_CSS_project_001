@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon/favicon.png" />
+    <!--     enlazando el css-->
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Login site</title>
+</head>
+
+<body>
+    <header>
+        <img class="sega_logo" src="./resources/sega_logo.png" alt="">
+        <img class="sega_gif" src="./resources/sonic1.gif">
+
+    </header>
+
+    <fieldset class="user_credentials">
+        <label for="user_mail">Email:</label> <br>
+        <input class="credentials" id="user_mail" type="email"> <br>
+
+        <label for="user_password">Password:</label> <br>
+        <input class="credentials" id="user_password" type="password" minlength="5"> <br>
+
+        <form action="./home.html"><input class="login" type="submit" value="Login"><br></form>
+
+        <form action="./recover-password.html">
+            <input class="login_forget_password" type="submit" value="Forgot password?">
+        </form>
+        <section class="footer_log">By logging on SEGA, the user accept our privacy policy</section>
+    </fieldset>
+
+    <footer class="page_footer"></footer>
+</body>
+
+</html>

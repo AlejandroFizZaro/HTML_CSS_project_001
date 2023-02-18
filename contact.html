@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon/favicon.png" />
+    <!--     enlazando el css-->
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <img class="sega_logo" src="./resources/sega_logo.png" alt="">
+        <a href="../home.html">
+            <img class="back_button" src="../resources/back.png" alt="">
+        </a>
+        <img class="sega_gif" src="./resources/tails-fly.gif">
+
+    </header>
+    <article class="sections">
+        <section class="section_left">
+            <h3 class="map_title">Find our office</h3>
+            <iframe class="map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-82.82704353332521%2C35.18657620202771%2C-82.72009849548341%2C35.251436911104825&amp;layer=mapnik"
+                style="border: 1px solid black"></iframe>
+        </section>
+        <section class="section_right">
+            <fieldset class="contact_form">
+                <p class="label_recover">Send us an email</p>
+                <label for="user_mail">Title:</label> <br>
+                <input class="credentials" id="user_mail" type="email"> <br>
+                <label for="user_number">Message.</label> <br>
+                <input class="credentials" id="user_number" type="email"> <br>
+                <form action="./remember_email_sent.html">
+                    <input class="email-submit" type="submit" value="send email"><br>
+                </form>
+            </fieldset>
+
+        </section>
+    </article>
+
+
+    <footer class="page_footer"></footer>
+</body>
+
+</html>
